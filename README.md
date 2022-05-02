@@ -19,7 +19,7 @@ $ date-diff 1970-1-1 2022-5-2
 output
 
 ```
-years: 52, months: 4, weeks: 2730, days: 19114, hours: 458736, minutes: 27524160, seconds: 1651449600
+years: 52, months: 627, weeks: 2730, days: 19114, hours: 458736, minutes: 27524160, seconds: 1651449600
 ```
 
 ### Help
