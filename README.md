@@ -12,7 +12,7 @@ cargo install --path .
 
 ## Usage
 
-`date-diff 1970-1-1 2022-5-2`
+`$ date-diff 1970-1-1 2022-5-2`
 
 output
 
