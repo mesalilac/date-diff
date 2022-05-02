@@ -45,3 +45,7 @@ OPTIONS:
     -w, --weeks
 
 ```
+
+## todo
+
+- [ ] Code clean up
