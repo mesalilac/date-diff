@@ -11,23 +11,23 @@ pub struct DateDiffArgs {
     pub end_date: String,
 
     #[clap(long, short)]
-    pub second: bool,
-
-    #[clap(long, short)]
-    pub minute: bool,
-
-    #[clap(long, short)]
-    pub hour: bool,
-
-    #[clap(long, short)]
-    pub day: bool,
-
-    #[clap(long, short)]
-    pub week: bool,
+    pub seconds: bool,
 
     #[clap(long, short = 'M')]
-    pub month: bool,
+    pub minutes: bool,
 
     #[clap(long, short)]
-    pub year: bool,
+    pub hours: bool,
+
+    #[clap(long, short)]
+    pub days: bool,
+
+    #[clap(long, short)]
+    pub weeks: bool,
+
+    #[clap(long, short)]
+    pub months: bool,
+
+    #[clap(long, short)]
+    pub years: bool,
 }
