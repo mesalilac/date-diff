@@ -55,10 +55,10 @@ fn main() {
     let date_diff = date_component::calculate(&date1, &date2);
 
     let years = date_diff.year;
-    let months = date_diff.month;
     let days = date_diff.interval_day;
 
     let seconds = days * 86_400;
+    let months = seconds / 2629746;
     let weeks = seconds / 604800;
     let minutes = seconds / 60;
     let hours = seconds / 3600;
