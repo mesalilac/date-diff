@@ -5,7 +5,9 @@ use clap::Parser;
 #[clap(author, version, about, long_about = None)]
 #[clap(propagate_version = true)]
 pub struct DateDiffArgs {
+    /// Date formats: yyyy-mm-dd or yyyy/mm/dd
     pub start_date: String,
+    /// Date formats: yyyy-mm-dd or yyyy/mm/dd
     pub end_date: String,
 
     #[clap(long, short)]
